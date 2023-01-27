@@ -9,6 +9,7 @@ window.addEventListener('resize',setPixelToWorldscale)
 // MOVING THE DINO
 
 function update(time){
+    window.requestAnimationFrame(update)
 
 }
 window.requestAnimationFrame(update)

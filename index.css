@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Work+Sans:wght@300&display=swap');
 *,*::before, *::after{
     box-sizing: border-box;
     user-select: none;
@@ -9,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: rgb(156, 242, 242);
 }
 .world{
     overflow: hidden;
@@ -17,9 +19,16 @@ body{
 }
 .score{
     position: absolute;
-  font-size: 3vmin;
-  right: 1vmin;
-  top: 1vmin;
+  font-size: 6vmin;
+  /* right: 1vmin; */
+
+  left: 50%;
+   height: 60px;
+   width: 80px;
+   border: 2px solid black;
+    padding: 1%;
+
+
 }
 .start-screen {
     position: absolute;
@@ -33,6 +42,7 @@ body{
     font-size: 5vmin;
     top: 50%;
     left: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
     transform: translate(-50%, -50%);
   }
   
